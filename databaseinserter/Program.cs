@@ -20,11 +20,11 @@ namespace databaseinserter
             if (connection == null)
             {
                 connection = new OracleConnection();
-                connection.ConnectionString = "User Id=s95313;Password=s95313;Data Source = (DESCRIPTION = " +
-                                            " (ADDRESS = (PROTOCOL = TCP)(HOST = 217.173.198.135)(PORT = 1522    ))" +
+                connection.ConnectionString = "User Id=login;Password=password;Data Source = (DESCRIPTION = " +
+                                            " (ADDRESS = (PROTOCOL = TCP)(HOST = hostip)(PORT = 1522    ))" +
                                             " (CONNECT_DATA =" +
                                             " (SERVER = DEDICATED)" +
-                                             " (SERVICE_NAME = orcltp.iaii.local)" +
+                                             " (SERVICE_NAME = serviceName)" +
                                             ")" +
                                             ");";
 
